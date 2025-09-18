@@ -24,6 +24,8 @@ header{
     z-index: 100;
 }
 
+/*Navbar*/
+
 .Logo{
     font-size: 2em;
     color: #fff;
@@ -65,6 +67,9 @@ header{
     transform: scale(1);
     opacity: 1;
 } 
+
+
+/*Efecto parallax de la pagina*/
 
 .parallax{
     position: relative;
