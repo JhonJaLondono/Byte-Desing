@@ -13,3 +13,7 @@ window.addEventListener("scroll", () => {
     gateLeft.style.left = value * 0.5 + "px"
     gateRight.style.left = value * -0.5 + "px"
 });
+
+document.getElementById("btnCambiar").addEventListener("click", function() {
+  document.getElementById("mensaje").innerText = "¡Estaremos para escucharte!";
+});
